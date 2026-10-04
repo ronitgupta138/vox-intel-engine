@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  presentation-engine:
+    build: .
+    container_name: presentation-intelligence-engine
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: 8000
