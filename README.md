@@ -9,7 +9,7 @@
   ╚═══╝   ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚══════╝
 ```
 
-### **Multi-Modal Speech Telemetry & Acoustic DSP Engine (FastAPI & Python 3.11)**
+### **VoxIntel Engine — Multi-Modal Speech Telemetry & Acoustic DSP Engine (FastAPI & Python 3.11)**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-0891b2?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-0891b2?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
