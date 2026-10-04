@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🎙️ Presentation Intelligence Engine
+# 🎙️ VoxIntel Engine
 
-**Multi-Modal AI & Digital Signal Processing (DSP) Engine for Speech Delivery, Vocal Telemetry & Confidence Analytics**
+**Real-Time Multi-Modal Speech Telemetry & Acoustic DSP Engine (FastAPI, Python 3.11, Autocorrelation Pitch, FFT Spectral Energy & Lexical Analytics)**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-0891b2?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-0891b2?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![NumPy](https://img.shields.io/badge/NumPy-DSP-0891b2?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Docker](https://img.shields.io/badge/Docker-Container-0891b2?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
-[![CI](https://img.shields.io/badge/CI-GitHub_Actions-0891b2?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ronitgupta138/presentation-intelligence-engine/actions)
+[![CI](https://img.shields.io/badge/CI-GitHub_Actions-0891b2?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ronitgupta138/vox-intel-engine/actions)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ## 📌 Architectural Overview
 
-Presentation Intelligence Engine is an asynchronous, high-throughput microservice that analyzes technical presentations, executive pitches, and mock interview speeches across multiple parallel acoustic and semantic streams:
+VoxIntel Engine is an asynchronous, high-throughput microservice that analyzes technical presentations, executive pitches, and mock interview speeches across multiple parallel acoustic and semantic streams:
 
 ```
                            [ Audio Stream (WAV/PCM) + Transcript ]
@@ -85,8 +85,8 @@ Presentation Intelligence Engine is an asynchronous, high-throughput microservic
 ## 🚀 Quick Start (Docker)
 
 ```bash
-git clone https://github.com/ronitgupta138/presentation-intelligence-engine.git
-cd presentation-intelligence-engine
+git clone https://github.com/ronitgupta138/vox-intel-engine.git
+cd vox-intel-engine
 
 # Start service container
 docker compose up --build -d
